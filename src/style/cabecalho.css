@@ -1,0 +1,41 @@
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.logo img {
+  width: 100px;
+
+}
+
+.pesquisa-bar input {
+  width: 250px;
+  height: 30px;
+  border-radius: 5px;
+  border: none;
+}
+
+.pesquisa-bar-container {
+  position: relative;
+}
+
+.pesquisa-icon {
+  position: absolute;
+  top: 58%;
+  right: 10px; /* Ajuste a posição horizontal da lupa conforme necessário */
+  transform: translateY(-50%);
+}
+
+.pesquisa-icon img {
+  width: 20px; /* Ajuste o tamanho do ícone conforme necessário */
+  height: 20px;
+}
+
+
+
+
+.cart img {
+  width: 30px;
+  
+}
