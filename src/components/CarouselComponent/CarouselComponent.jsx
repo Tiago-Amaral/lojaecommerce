@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
-import Image1 from './image/1.png';
-import Image2 from './image/2.png';
-import Image3 from './image/3.png';
+import Image1 from '../../assets/images/1.png';
+import Image2 from '../../assets/images/2.png';
+import Image3 from '../../assets/images/3.png';
 
 const CarouselComponent = () => {        // aqui se encontras o carrossel com as imagens 
   const [activeIndex, setActiveIndex] = useState(0);
