@@ -1,4 +1,4 @@
-import './style/Menu.css';
+import './HeaderLinks.css';
 import React from 'react';
 
 const Menu = () => {  // Menu contendo ínicio, genêro, ofertas, mais vendidos e infantil 
@@ -17,9 +17,9 @@ const Menu = () => {  // Menu contendo ínicio, genêro, ofertas, mais vendidos 
         <li className="menu-item">
           <a href="/">Mais Vendidos</a>
         </li>
-        <li className="menu-item">
+        {/* <li className="menu-item">
           <a href="/">Infantil</a>
-        </li>
+        </li> */}
       </ul>
     </nav>
   );

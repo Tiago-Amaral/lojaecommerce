@@ -1,8 +1,8 @@
-import '../src/style/cabecalho.css';
+import './Header.css';
 import React from 'react';
-import Lupa from './image/lupa.png';
-import LogoImg from './image/logo.png';
-import Cart from './image/cart.png';
+import Lupa from '../../assets/images/lupa.png';
+import LogoImg from '../../assets/images/logo.png';
+import Cart from '../../assets/images/cart.png';
 
 
 const Cabecalho = () => {  //Cabesalho do site, contendo logo. input de pesquisa info minha conta e carrinho de compras
@@ -20,7 +20,7 @@ const Cabecalho = () => {  //Cabesalho do site, contendo logo. input de pesquisa
         </div>
       </div>
       <div className="info-conta">
-        <h5>Minha conta</h5>
+        <h5>minha conta</h5>
       </div>
       <div className="cart">
         <a href="/#"><img src={Cart} alt="cart" /></a>
