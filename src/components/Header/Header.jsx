@@ -20,7 +20,7 @@ const Cabecalho = () => {  //Cabesalho do site, contendo logo. input de pesquisa
         </div>
       </div>
       <div className="info-conta">
-        <h5>Minha conta</h5>
+        <h5>minha conta</h5>
       </div>
       <div className="cart">
         <a href="/#"><img src={Cart} alt="cart" /></a>
